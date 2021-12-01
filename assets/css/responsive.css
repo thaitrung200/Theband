@@ -1,0 +1,75 @@
+/* Pc */
+@media (min-width:1024px){
+
+}
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px){
+
+}
+/* Mobile */
+@media (max-width:739px){
+    .header{
+        overflow: hidden;
+    }
+    .header > .nav{
+        display: block;
+        width: 100%;
+    }
+    .header > .nav > li {
+        
+    }
+    .header > .nav > li:first-child{
+        display: inline-block;
+    }
+    .nav .subnav{
+        display: none;
+    }
+    .header .search{
+        display: none;
+    }
+    .header #menu-mobile{
+        display: block;
+    }
+
+    .content .members-list{
+        flex-direction: column;
+    }
+    .content .member-item{
+        width: 100%;
+    }
+    .content .member-item .member-img{
+        width: 60%;
+        margin-bottom: 32px;
+    }
+    .place-list{
+        flex-direction: column;
+    }
+    .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .place-buy-btn{
+        width: 100%;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact .contact-info{
+        width: 100%;
+    }
+    .contact .contact-form{
+        width: 100%;
+    }
+    .form-info {
+        flex-direction: column;
+        margin-top: 32px
+    }
+    .form-info .email,
+    .form-info .name{
+        width: 100%;
+        border:1px solid #ccc;
+    }
+    .form-btn-send{
+        width: 100%;
+    }
+}
